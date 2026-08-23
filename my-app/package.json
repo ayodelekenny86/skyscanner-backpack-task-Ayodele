@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@skyscanner/backpack-react-scripts": "11.2.4"
+    "@skyscanner/backpack-react-scripts": "11.2.4",
+    "@vercel/speed-insights": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

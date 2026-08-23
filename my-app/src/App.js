@@ -2,6 +2,7 @@ import React from 'react';
 import { BpkCode } from '@skyscanner/backpack-web/bpk-component-code';
 import BpkButton from '@skyscanner/backpack-web/bpk-component-button';
 import BpkText from '@skyscanner/backpack-web/bpk-component-text';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 import { cssModules } from '@skyscanner/backpack-web/bpk-react-utils';
 
@@ -22,6 +23,7 @@ const App = () => (
       </BpkText>
       <BpkButton onClick={() => alert('It works!')}>Click me</BpkButton>
     </main>
+    <SpeedInsights />
   </div>
 );
 
